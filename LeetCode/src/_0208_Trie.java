@@ -1,7 +1,5 @@
 import org.junit.Test;
 
-import java.util.Scanner;
-
 /**
  * <a href="https://leetcode.cn/problems/implement-trie-prefix-tree/description/">实现 Trie (前缀树) - LeetCode</a>
  * <p>

@@ -1,5 +1,4 @@
 import org.junit.Test;
-import org.junit.experimental.max.MaxCore;
 
 /**
  * <a href="https://leetcode.cn/problems/jump-game/description/?envType=study-plan-v2&envId=top-interview-150">跳跃游戏 - LeetCode</a>

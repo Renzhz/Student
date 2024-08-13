@@ -1,8 +1,5 @@
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.OptionalInt;
-
 /**
  * <a href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/?envType=study-plan-v2&envId=top-interview-150">买卖股票的最佳时机 - LeetCode</a>
  * <p>
