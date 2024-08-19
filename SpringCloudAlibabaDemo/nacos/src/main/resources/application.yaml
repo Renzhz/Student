@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      config:
+        import-check:
+          enabled: false
+        import:
+          - nacos:nacos-config.properties?refresh=true
+server:
+  port: 18084
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+logging:
+  level:
+    renzhz.student.springcloud.alibaba.demo: info
