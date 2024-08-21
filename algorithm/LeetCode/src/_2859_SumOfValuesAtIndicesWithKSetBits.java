@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * <a href="https://leetcode.cn/problems/sum-of-values-at-indices-with-k-set-bits/description/">计算 K 置位下标对应元素的和 —— LeetCode</a>
  * <p>
- * 2024/6/11
+ * @since 2024/6/11
  */
 public class _2859_SumOfValuesAtIndicesWithKSetBits {
     public static int sumIndicesWithKSetBits(List<Integer> nums, int k) {

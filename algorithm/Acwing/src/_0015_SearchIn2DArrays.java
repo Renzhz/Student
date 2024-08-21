@@ -6,7 +6,7 @@ import org.junit.Test;
  * <p>
  *     思维题
  *     目前暴力解法，时间复杂度 O(n^2)，可有一种 O(nlog) 时间复杂度的解法
- * 2024/8/14
+ * @since 2024/8/14
  */
 public class _0015_SearchIn2DArrays {
     public boolean searchArray(int[][] array, int target) {

@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * <a href="https://www.acwing.com/problem/content/59/">字符串中第一个只出现一次的字符 - Acwing</a>
  * <p>
- * 2024/8/14
+ * @since 2024/8/14
  */
 public class _0063_TheFirstCharacterInStringThatAppearsOnlyOnce {
     public char firstNotRepeatingChar(String s) {

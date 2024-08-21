@@ -6,7 +6,7 @@ import java.util.*;
 /**
  * <a href="https://leetcode.cn/problems/binary-tree-level-order-traversal/description/?envType=study-plan-v2&envId=top-interview-150">二叉树的层序遍历 - LeetCode</a>
  * <p>
- * 2024/7/17
+ * @since 2024/7/17
  */
 public class _0101_SequenceTraversalOfBinaryTree {
     public List<List<Integer>> levelOrder(TreeNode root) {

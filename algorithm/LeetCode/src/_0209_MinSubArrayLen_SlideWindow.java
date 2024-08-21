@@ -4,7 +4,7 @@ import org.junit.Test;
  * <a href="https://leetcode.cn/problems/minimum-size-subarray-sum/?envType=study-plan-v2&envId=top-interview-150">长度最小的子数组 - LeetCode</a>
  * <p>
  * 滑动窗口解法
- * 2024/8/9
+ * @since 2024/8/9
  */
 public class _0209_MinSubArrayLen_SlideWindow {
     public int minSubArrayLen(int target, int[] nums) {

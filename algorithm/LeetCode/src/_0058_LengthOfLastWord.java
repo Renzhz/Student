@@ -3,7 +3,7 @@ import org.junit.Test;
 /**
  * <a href="https://leetcode.cn/problems/length-of-last-word/?envType=study-plan-v2&envId=top-interview-150">最后一个单词的长度 - LeetCode</a>
  * <p>
- * 2024/8/5
+ * @since 2024/8/5
  */
 public class _0058_LengthOfLastWord {
     public int lengthOfLastWord(String s) {

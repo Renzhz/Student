@@ -3,7 +3,7 @@ import org.junit.Test;
 /**
  * <a href="https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/?envType=study-plan-v2&envId=top-interview-150">找出字符串中第一个匹配项的下标 - LeetCode</a>
  * <p>
- * 2024/7/16
+ * @since 2024/7/16
  */
 public class _0028_StrStr {
     public int strStr(String haystack, String needle) {

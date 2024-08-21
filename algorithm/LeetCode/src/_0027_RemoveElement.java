@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/remove-element/?envType=study-plan-v2&envId=top-interview-150">移除元素 - LeetCode</a>
  * <p>
- * 2024/6/29
+ * @since 2024/6/29
  */
 public class _0027_RemoveElement {
     public static int removeElement(int[] nums, int val) {

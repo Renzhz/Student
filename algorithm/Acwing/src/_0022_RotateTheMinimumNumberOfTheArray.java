@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * <a href="https://www.acwing.com/problem/content/20/">旋转数组的最小数字 - Acwing</a>
  * <p>
- * 2024/8/13
+ * @since 2024/8/13
  */
 public class _0022_RotateTheMinimumNumberOfTheArray {
     public int findMin(int[] nums) {

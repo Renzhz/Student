@@ -4,7 +4,7 @@ import org.junit.Test;
  * <a href="https://leetcode.cn/problems/maximum-subarray/?envType=study-plan-v2&envId=top-interview-150">最大子数组和 - LeetCode</a>
  * <p>
  *     使用前缀和思想，很强的思想，第一次了解可以这样做。
- * 2024/8/13
+ * @since 2024/8/13
  */
 public class _0053_TheMaxSubarraySum {
     public int maxSubArray(int[] nums) {

@@ -3,7 +3,7 @@ import org.junit.Test;
 /**
  * <a href="https://leetcode.cn/problems/implement-trie-prefix-tree/description/">实现 Trie (前缀树) - LeetCode</a>
  * <p>
- * 2024/8/11
+ * @since 2024/8/11
  */
 public class _0208_Trie {
     class Trie {

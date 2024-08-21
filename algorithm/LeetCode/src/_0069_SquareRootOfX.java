@@ -5,7 +5,7 @@ import org.junit.Test;
  * <p>
  * 因为返回的一定是整数，小数部分会被直接约去，所以最后的那个值一定符合 pow(result, 2) <= x，
  * 所以只需要找到平方后最接近 x 的整数即可。【二分法查找】
- * 2024/7/16
+ * @since 2024/7/16
  */
 public class _0069_SquareRootOfX {
     public int mySqrt(int x) {

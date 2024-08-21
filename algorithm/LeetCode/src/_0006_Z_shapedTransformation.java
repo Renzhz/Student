@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * <a href="https://leetcode.cn/problems/zigzag-conversion/description/?envType=study-plan-v2&envId=top-interview-150">Z 字形变换 - LeetCode</a>
  * <p>
- * 2024/8/8
+ * @since 2024/8/8
  */
 public class _0006_Z_shapedTransformation {
     /**

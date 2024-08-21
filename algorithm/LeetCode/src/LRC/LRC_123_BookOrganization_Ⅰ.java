@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * <a href='https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/'>图书整理 Ⅰ [逆转链表] - LeetCode</a>
  * <p>
- * 2024/7/4
+ * @since 2024/7/4
  */
 public class LRC_123_BookOrganization_Ⅰ {
     public static int[] reverseList(ListNode head) {

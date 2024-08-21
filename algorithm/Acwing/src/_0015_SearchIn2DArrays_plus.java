@@ -4,7 +4,7 @@ import org.junit.Test;
 /**
  * <a href="https://www.acwing.com/problem/content/16/">二维数组中的查找 - Acwing</a>
  * <p>
- * 2024/8/14
+ * @since 2024/8/14
  */
 public class _0015_SearchIn2DArrays_plus {
     public boolean searchArray(int[][] array, int target) {

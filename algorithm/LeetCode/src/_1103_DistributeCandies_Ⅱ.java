@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * <a href="https://leetcode.cn/problems/distribute-candies-to-people/description/?envType=daily-question&envId=2024-06-03">分糖果 Ⅱ</a>
  * <p>
- * 2024/6/3
+ * @since 2024/6/3
  */
 public class _1103_DistributeCandies_Ⅱ {
     public static int[] distributeCandies(int candies, int num_people) {

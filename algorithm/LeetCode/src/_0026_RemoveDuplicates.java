@@ -4,7 +4,7 @@ import java.util.HashMap;
 /**
  * <a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150">删除有序数组中的重复项 - LeetCode</a>
  * <p>
- * 2024/7/13
+ * @since 2024/7/13
  */
 public class _0026_RemoveDuplicates {
     public static int removeDuplicates(int[] nums) {

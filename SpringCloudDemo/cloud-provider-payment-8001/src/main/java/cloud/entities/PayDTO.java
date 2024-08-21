@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 /**
  * 支付交易表 可对外暴露的字段
  * <p>
- * 2024/8/21
+ * @since 2024/8/21
  */
 @Data
 @AllArgsConstructor

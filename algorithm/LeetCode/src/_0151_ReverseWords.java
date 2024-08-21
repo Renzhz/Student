@@ -1,7 +1,7 @@
 /**
  * <a href='https://leetcode.cn/problems/reverse-words-in-a-string/'>反转字符串中的单词 - LeetCode</a>
  * <p>
- * 2024/7/10
+ * @since 2024/7/10
  */
 public class _0151_ReverseWords {
     public static String reverseMessage(String message) {

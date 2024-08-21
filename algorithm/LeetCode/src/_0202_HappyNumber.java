@@ -3,7 +3,7 @@ import java.util.HashSet;
 /**
  * <a href="https://leetcode.cn/problems/happy-number/?envType=study-plan-v2&envId=top-interview-150">快乐数 - LeetCode</a>
  * <p>
- * 2024/7/14
+ * @since 2024/7/14
  */
 public class _0202_HappyNumber {
     private static final HashSet<Integer> set = new HashSet<>();

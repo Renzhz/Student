@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/account-balance-after-rounded-purchase/">取整购买后的账户余额 - LeetCode</a>
  * <p>
- * 2024/6/12
+ * @since 2024/6/12
  */
 public class _2806_AccountBalanceAfterPurchase {
     public static int accountBalanceAfterPurchase(int purchaseAmount) {

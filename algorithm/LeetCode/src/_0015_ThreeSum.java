@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * <a href="https://leetcode.cn/problems/3sum/?envType=study-plan-v2&envId=top-interview-150">三数之和 - LeetCode</a>
  * <p>
- * 2024/8/1
+ * @since 2024/8/1
  */
 public class _0015_ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {

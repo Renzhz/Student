@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * <a href="https://leetcode.cn/problems/group-anagrams/description/">字母异位词分组-LeetCode</a>
  * <p>
- * 2024/6/3
+ * @since 2024/6/3
  */
 public class _0049_GroupAnagram {
     public static List<List<String>> groupAnagrams(String[] strings) {

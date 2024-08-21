@@ -3,7 +3,7 @@ import org.junit.Test;
 /**
  * <a href="https://leetcode.cn/problems/jump-game/description/?envType=study-plan-v2&envId=top-interview-150">跳跃游戏 - LeetCode</a>
  * <p>
- * 2024/8/12
+ * @since 2024/8/12
  */
 public class _0055_JumpGame {
     /**

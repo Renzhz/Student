@@ -6,7 +6,7 @@ import java.util.*;
 /**
  * <a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/?envType=study-plan-v2&envId=top-interview-150">二叉树的最近公共祖先 - LeetCode</a>
  * <p>
- * 2024/7/14
+ * @since 2024/7/14
  */
 public class _0236_LowestCommonAncestor {
     /**

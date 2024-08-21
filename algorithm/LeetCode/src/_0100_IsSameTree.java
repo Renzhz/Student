@@ -4,7 +4,7 @@ import org.junit.Test;
 /**
  * <a href="https://leetcode.cn/problems/same-tree/?envType=study-plan-v2&envId=top-interview-150">相同的树 - LeetCode</a>
  * <p>
- * 2024/8/7
+ * @since 2024/8/7
  */
 public class _0100_IsSameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {

@@ -7,7 +7,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 /**
  * cloud-provider-payment-8001 启动类
  * <p>
- * 2024/8/21
+ * @since 2024/8/21
  */
 @SpringBootApplication
 @MapperScan("cloud.mapper")

@@ -3,7 +3,7 @@ import org.junit.Test;
 /**
  * <a href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/description/?envType=study-plan-v2&envId=top-interview-150">买卖股票的最佳时机 Ⅱ - LeetCode</a>
  * <p>
- * 2024/8/12
+ * @since 2024/8/12
  */
 public class _0121_TheBestTimeToBuyAndSellStocks_Ⅱ {
     public int maxProfit(int[] prices) {

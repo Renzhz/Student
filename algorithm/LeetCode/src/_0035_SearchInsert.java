@@ -4,7 +4,7 @@
  *     关键点：
  *     1. 返回 nums 中的第一个（最左边的）大于或等于 target 的数的下标
  *     2. 如果所有数都小于 target，返回 nums 的长度。
- * 2024/7/13
+ * @since 2024/7/13
  */
 public class _0035_SearchInsert {
     public static int searchInsert(int[] nums, int target) {

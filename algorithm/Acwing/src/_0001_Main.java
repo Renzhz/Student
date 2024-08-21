@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * <a href="https://www.acwing.com/problem/content/1/">A+B - Acwing</a>
  * <p>
- * 2024/8/13
+ * @since 2024/8/13
  */
 public class _0001_Main {
     public static void main(String[] args) {

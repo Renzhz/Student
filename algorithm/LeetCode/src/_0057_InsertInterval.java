@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * <a href="https://leetcode.cn/problems/insert-interval/?envType=study-plan-v2&envId=top-interview-150">插入区间 - LeetCode</a>
  * <p>
- * 2024/8/4
+ * @since 2024/8/4
  */
 public class _0057_InsertInterval {
     public int[][] insert(int[][] intervals, int[] newInterval) {

@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * <a href="https://www.acwing.com/problem/content/14/">找出数组中重复的数字 - Acwing</a>
  * <p>
- * 2024/8/13
+ * @since 2024/8/13
  */
 public class _0013_FindDuplicateNumbers {
     public int duplicateInArray(int[] nums) {

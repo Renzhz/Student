@@ -4,7 +4,7 @@ import java.util.HashMap;
 /**
  * @see <a href="https://leetcode.cn/problems/two-sum/description/">两数之和-LeetCode</a>
  * <p>
- * 2024/6/1
+ * @since 2024/6/1
  */
 public class _0001_TwoSum {
     public static int[] twoSum(int[] nums, int target) {

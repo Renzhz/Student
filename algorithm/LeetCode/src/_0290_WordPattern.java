@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * <a href="https://leetcode.cn/problems/word-pattern/?envType=study-plan-v2&envId=top-interview-150">单词规律 - LeetCode</a>
  * <p>
- * 2024/8/2
+ * @since 2024/8/2
  */
 public class _0290_WordPattern {
     public boolean wordPattern(String pattern, String s) {

@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * <a href="https://leetcode.cn/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150">多数元素 - LeetCode</a>
  * <p>
- * 2024/8/2
+ * @since 2024/8/2
  */
 public class _0169_MajorityElement {
     public int majorityElement(int[] nums) {
