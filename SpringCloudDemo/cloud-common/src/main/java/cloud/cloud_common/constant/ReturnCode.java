@@ -1,4 +1,4 @@
-package cloud.constant;
+package cloud.cloud_common.constant;
 
 import lombok.Getter;
 

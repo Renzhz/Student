@@ -1,6 +1,6 @@
-package cloud.response;
+package cloud.cloud_common.response;
 
-import cloud.constant.ReturnCode;
+import cloud.cloud_common.constant.ReturnCode;
 import lombok.Data;
 import lombok.experimental.Accessors;
 

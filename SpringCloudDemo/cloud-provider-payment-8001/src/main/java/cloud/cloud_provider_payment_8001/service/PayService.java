@@ -1,6 +1,6 @@
-package cloud.service;
+package cloud.cloud_provider_payment_8001.service;
 
-import cloud.entities.Pay;
+import cloud.cloud_provider_payment_8001.entities.Pay;
 
 import java.util.List;
 

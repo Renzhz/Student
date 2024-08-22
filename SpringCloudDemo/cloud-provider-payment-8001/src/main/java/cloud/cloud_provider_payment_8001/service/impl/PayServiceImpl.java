@@ -1,8 +1,8 @@
-package cloud.service.impl;
+package cloud.cloud_provider_payment_8001.service.impl;
 
-import cloud.entities.Pay;
-import cloud.mapper.PayMapper;
-import cloud.service.PayService;
+import cloud.cloud_provider_payment_8001.entities.Pay;
+import cloud.cloud_provider_payment_8001.mapper.PayMapper;
+import cloud.cloud_provider_payment_8001.service.PayService;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 

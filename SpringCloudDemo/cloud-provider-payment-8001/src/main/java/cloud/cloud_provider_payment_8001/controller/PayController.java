@@ -1,10 +1,10 @@
-package cloud.controller;
+package cloud.cloud_provider_payment_8001.controller;
 
-import cloud.constant.ReturnCode;
-import cloud.entities.Pay;
-import cloud.entities.PayDTO;
-import cloud.response.ResultDate;
-import cloud.service.PayService;
+import cloud.cloud_common.constant.ReturnCode;
+import cloud.cloud_common.entities.PayDTO;
+import cloud.cloud_common.response.ResultDate;
+import cloud.cloud_provider_payment_8001.entities.Pay;
+import cloud.cloud_provider_payment_8001.service.PayService;
 import cn.hutool.core.bean.BeanUtil;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;

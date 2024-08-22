@@ -1,4 +1,4 @@
-package cloud.entities;
+package cloud.cloud_provider_payment_8001.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;

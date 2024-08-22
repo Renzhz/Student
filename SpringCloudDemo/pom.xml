@@ -12,17 +12,19 @@
     <modules>
         <module>MapperGenerator</module>
         <module>cloud-provider-payment-8001</module>
+        <module>cloud-consumer-order-80</module>
+        <module>cloud-common</module>
     </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <hutool.version>5.8.22</hutool.version>
+        <hutool.version>5.8.25</hutool.version>
         <lombok.version>1.18.26</lombok.version>
         <druid.version>1.1.20</druid.version>
         <mybatis.springboot.version>3.0.2</mybatis.springboot.version>
-        <mysql.version>8.0.11</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <swagger3.version>2.2.0</swagger3.version>
         <mapper.version>4.2.3</mapper.version> <!-- TODO Mapper 5 最新版本 -->
         <fastjson2.version>2.0.40</fastjson2.version>
@@ -40,6 +42,12 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.google.protobuf</groupId>
+                        <artifactId>protobuf-java</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <!-- 通用 Mapper 4 之 tk.mybatis -->
             <dependency>
