@@ -3,7 +3,7 @@ package cloud.controller;
 import cloud.constant.ReturnCode;
 import cloud.entities.Pay;
 import cloud.entities.PayDTO;
-import cloud.entities.ResultDate;
+import cloud.response.ResultDate;
 import cloud.service.PayService;
 import cn.hutool.core.bean.BeanUtil;
 import jakarta.annotation.Resource;
@@ -51,6 +51,7 @@ public class PayController {
 
     @GetMapping("/pay/getById/{id}")
     public ResultDate<Pay> getById(@PathVariable(name = "id") Integer id) {
+        if (id <= 0) throw new RuntimeException("查询条件无效.");
         Pay pay = payService.getById(id);
         return Objects.isNull(pay) ? ResultDate.fail(ReturnCode.FAIL.getCode(), "未查询到支付记录.") : ResultDate.success(pay);
     }

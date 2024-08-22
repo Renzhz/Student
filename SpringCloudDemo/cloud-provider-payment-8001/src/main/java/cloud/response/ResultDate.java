@@ -1,4 +1,4 @@
-package cloud.entities;
+package cloud.response;
 
 import cloud.constant.ReturnCode;
 import lombok.Data;
