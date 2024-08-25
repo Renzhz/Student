@@ -1,5 +1,6 @@
-package cloud.cloud_consumer_order_80.config;
+package cloud.cloud_nacos_consumer_order_91.config;
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
@@ -7,11 +8,12 @@ import org.springframework.web.client.RestTemplate;
 /**
  * RestTemplate 配置类
  *
- * @since 2024/8/22
+ * @since 2024/8/23
  */
 @Configuration
 public class RestTemplateConfig {
     @Bean
+    @LoadBalanced // 赋予 RestTemplate 负载均衡的能力
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }

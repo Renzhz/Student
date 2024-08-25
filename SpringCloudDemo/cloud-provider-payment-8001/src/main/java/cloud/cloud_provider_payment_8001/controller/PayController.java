@@ -8,10 +8,12 @@ import cloud.cloud_provider_payment_8001.service.PayService;
 import cn.hutool.core.bean.BeanUtil;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 支付交易 controller
@@ -24,6 +26,9 @@ import java.util.Objects;
 public class PayController {
     @Resource
     private PayService payService;
+
+    @Value("${server.port}")
+    private String serverPort;
 
     @PostMapping(value = "/pay/add")
     public ResultDate<String> addPay(@RequestBody Pay pay) {
@@ -60,5 +65,21 @@ public class PayController {
     public ResultDate<List<Pay>> getAll() {
         List<Pay> payList = payService.getAll();
         return payList.isEmpty() ? ResultDate.fail(ReturnCode.FAIL.getCode(), "获取数据失败.") : ResultDate.success(payList);
+    }
+
+    @GetMapping("/service/info")
+    public String getInfo() {
+        return "cloud-payment-service, port " + serverPort;
+    }
+
+    @GetMapping("/service/timeout")
+    String getInfoTimeout() {
+        try {
+            TimeUnit.SECONDS.sleep(62);
+        } catch (InterruptedException exception) {
+            log.error(exception.getMessage());
+        }
+
+        return "success! cloud-payment-service, port " + serverPort;
     }
 }
