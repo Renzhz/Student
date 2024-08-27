@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
  *
  * @since 2024/8/24
  */
-@FeignClient(value = "cloud-payment-service")
+//@FeignClient(value = "cloud-payment-service")
+@FeignClient("cloud-gateway")
 public interface PayFeignApi {
     @GetMapping("/service/info")
     String getInfo();
@@ -26,4 +27,10 @@ public interface PayFeignApi {
 
     @PostMapping("/pay/add")
     ResultDate<String> addPay(@RequestBody PayDTO payDTO);
+
+    @GetMapping("/pay/gateway/get/{id}")
+    ResultDate getById(@PathVariable("id") Integer id);
+
+    @GetMapping("/pay/gateway/info")
+    ResultDate<String> gatewayInfo();
 }

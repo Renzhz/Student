@@ -6,8 +6,9 @@ spring:
     name: nacos-order-consumer
   cloud:
     nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
+      config:
+        import-check:
+          enabled: false
 
 service-url:
   nacos-user-service: http://nacos-payment-provider
